@@ -1,1 +1,2 @@
-<nav><ul><li>[Home](index.md)</li</ul></nav>
+ - [Home](index.md) - [Projects](projects.md)
+Welcome to my website! Here i will be recording my projects.
