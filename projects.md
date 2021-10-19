@@ -1,5 +1,4 @@
- - [Home](index.md)
- - [Projects](projects.md)
+ [Home](index.md) | [Projects](projects.md)
 
  **Projects:**
 
