@@ -3,4 +3,4 @@
 
 ## Project 1 - Making this website
 
-First, I needed to write the basic markdown code and setup my repository. Next, I needed to write the markdown code. [Source code](https://github.com/caarfken/caarfken.github.io)
+First, I needed to setup my repository. Next, I needed to learn markdown and write the website code. Finally, I needed to choose a theme. I settled on Hacker.
