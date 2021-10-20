@@ -6,3 +6,7 @@ First, I needed to setup my repository. Next, I needed to learn markdown and wri
 
 Source code:
 Available on [github](https://github.com/caarfken/caarfken.github.io)
+
+!update!
+Added 404 page.
+
