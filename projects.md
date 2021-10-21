@@ -1,4 +1,4 @@
- [Home](index.md) | [Projects](projects.md)
+ [Home](index.md) | [Projects](projects.md) | [Games](games.md)
 
  **Projects:**
 
