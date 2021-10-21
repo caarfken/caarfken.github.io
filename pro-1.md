@@ -1,4 +1,4 @@
- [Home](index.md) | [Projects](projects.md)
+ [Home](index.md) | [Projects](projects.md) | [Games](games.md)
 
 ## Project 1 - Making this website
 
