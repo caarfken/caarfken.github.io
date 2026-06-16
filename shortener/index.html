@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <script>
+        function unicodeToBase64(str) {
+            const bytes = new TextEncoder().encode(str);
+            const binary = String.fromCharCode(...bytes);
+            return btoa(binary);
+        }
+        const button = document.getElementById('submit');
+        const input = document.getElementById('ipn');
+
+        button.addEventListener('click', () => {
+            inp.value
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="url" id="inp">
+        <button type="submit" id="submit">shorten</button>
+    </form>
+    <div id="result">url here</div>
+</body>
