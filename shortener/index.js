@@ -4,10 +4,12 @@ const resultdiv = document.getElementById('result')
 
 button.addEventListener('click', (event) => {
     event.preventDefault();
-    if (inp.value.contains("http") == false)
-    {
-        inp.value = "http://" + inp.value
-    }
-    b64result = btoa(inp.value)
-    resultdiv.textContent = "caarfken.github.io/shortener/shorten.html?l=" + b64result
+
+    const value = input.value.trim();
+    const normalized = /^(https?:\/\/)/i.test(value)
+        ? value
+        : `http://${value}`;
+                             // Batshit insane regexes
+    const b64result = btoa(normalized);
+    resultdiv.textContent = `caarfken.github.io/shortener/shorten.html?l=${b64result}`;
 });
