@@ -5,5 +5,5 @@ const resultdiv = document.getElementById('result')
 button.addEventListener('click', (event) => {
     event.preventDefault();
     b64result = btoa(inp.value)
-    resultdiv.textContent = "caarfken.github.io/shorten.html?l=" + b64result
+    resultdiv.textContent = "caarfken.github.io/shortener/shorten.html?l=" + b64result
 });
